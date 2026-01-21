@@ -149,6 +149,11 @@ func (dm *DownloadManager) Stop() {
 	dm.mu.Lock()
 	defer dm.mu.Unlock()
 
+	// Stop the active download client
+	if dm.activeDownload != nil {
+		dm.activeDownload.Stop()
+	}
+
 	if dm.stopChan != nil {
 		close(dm.stopChan)
 		dm.stopChan = nil
