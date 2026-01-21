@@ -3,8 +3,8 @@ module sitebox-gui
 go 1.24.0
 
 require (
+	github.com/taqnihub/sitebox v1.0.0
 	github.com/wailsapp/wails/v2 v2.9.2
-	sitebox v0.0.0
 )
 
 require (
@@ -55,5 +55,3 @@ require (
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/protobuf v1.36.10 // indirect
 )
-
-replace sitebox => ../sitebox

@@ -7,7 +7,7 @@ import (
 
 	wailsRuntime "github.com/wailsapp/wails/v2/pkg/runtime"
 
-	"sitebox/pkg/downloader"
+	"github.com/taqnihub/sitebox/pkg/downloader"
 )
 
 // DownloadConfig represents the download configuration from the frontend
