@@ -3,7 +3,7 @@ module sitebox-gui
 go 1.24.0
 
 require (
-	github.com/taqnihub/sitebox v1.0.0
+	github.com/taqnihub/sitebox v1.2.0
 	github.com/wailsapp/wails/v2 v2.9.2
 )
 

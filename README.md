@@ -2,7 +2,7 @@
 
 A cross-platform desktop application for downloading websites. Built with [Wails](https://wails.io/) and [Svelte](https://svelte.dev/).
 
-SiteBox GUI provides a user-friendly interface for the [SiteBox](https://github.com/user/sitebox) command-line tool, making it easy to download entire websites for offline viewing.
+SiteBox GUI provides a user-friendly interface for the [SiteBox](https://github.com/taqnihub/sitebox) command-line tool, making it easy to download entire websites for offline viewing.
 
 ## Features
 
@@ -14,11 +14,25 @@ SiteBox GUI provides a user-friendly interface for the [SiteBox](https://github.
 - **Theme support** - Light, dark, and system theme options
 - **Cross-platform** - Works on macOS, Windows, and Linux
 
+## Screenshots
+
+### Download
+![Download](1.png)
+
+### History
+![History](2.png)
+
+### Presets
+![Presets](3.png)
+
+### Settings
+![Settings](4.png)
+
 ## Installation
 
 ### Download Pre-built Binaries
 
-Download the latest release for your platform from the [Releases](https://github.com/user/sitebox-gui/releases) page:
+Download the latest release for your platform from the [Releases](https://github.com/taqnihub/sitebox-gui/releases) page:
 
 - **macOS**: `SiteBox.app` (Universal binary for Intel and Apple Silicon)
 - **Windows**: `SiteBox.exe`
@@ -108,7 +122,7 @@ go install github.com/wailsapp/wails/v2/cmd/wails@latest
 
 ```bash
 # Clone the repository
-git clone https://github.com/user/sitebox-gui.git
+git clone https://github.com/taqnihub/sitebox-gui.git
 cd sitebox-gui
 
 # Install dependencies
@@ -168,7 +182,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## Related Projects
 
-- [SiteBox CLI](https://github.com/user/sitebox) - Command-line version
+- [SiteBox CLI](https://github.com/taqnihub/sitebox) - Command-line version
 
 ## Contributing
 
